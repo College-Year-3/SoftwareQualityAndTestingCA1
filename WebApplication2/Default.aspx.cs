@@ -24,10 +24,7 @@ namespace WebApplication2
             DateTime dob = DateTime.Parse(DOB.Text);
             int penPoin = int.Parse(PenP.Text);
 
-
-
-
-            float premium = Service.CalcPremium(vehicleValue, comp3rd, dob, penPoin);
+            float premium = Service.CalculateQuote(vehicleValue, comp3rd, dob, penPoin);
 
             ResultLab.Text = premium.ToString();
         }
@@ -35,9 +32,12 @@ namespace WebApplication2
         public class InsuranceService
         {
 
-            public float CalcPremium(int age, string comp3rd, DateTime dob, int penPoin)
+            public float CalculateQuote(int age, string comp3rd, DateTime dob, int penPoin)
             {
                 float premium = 0;
+
+                // Calculate code here
+
 
                 return premium;
             }

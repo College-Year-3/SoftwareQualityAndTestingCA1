@@ -9,7 +9,7 @@ using static WebApplication2._Default;
 
 namespace InsuranceTest 
 {
-    public class InsuranceTest //: ColumnFixture
+    public class InsuranceTest // ColumnFixture
     {
         public static InsuranceService SUT;
         public static int  vehicleValue;
@@ -20,7 +20,7 @@ namespace InsuranceTest
         public float premium()
         {
             SUT = new InsuranceService();
-            return SUT.CalcPremium(vehicleValue, comp3rd, dob, penPoin);
+            return SUT.CalculateQuote(vehicleValue, comp3rd, dob, penPoin);
         }
 
     }
