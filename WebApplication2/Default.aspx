@@ -7,8 +7,8 @@
     <asp:Label ID="Comp3rdLab" runat="server" Text="Comprehensive/third party" Height="30px" Width="80px"></asp:Label>
     <asp:TextBox ID="Comp3rd" runat="server" Height="30px" Width="80px"></asp:TextBox>
 
-      <asp:Label ID="DOBLab" runat="server" Text="Date Of Birth" Height="30px" Width="80px"></asp:Label>
-    <asp:TextBox ID="DOB" runat="server" Height="30px" Width="80px"></asp:TextBox>
+      <asp:Label ID="AgeLab" runat="server" Text="Age" Height="30px" Width="80px"></asp:Label>
+    <asp:TextBox ID="Age" runat="server" Height="30px" Width="80px"></asp:TextBox>
 
       <asp:Label ID="PenPLab" runat="server" Text="Penalty Points" Height="30px" Width="80px"></asp:Label>
     <asp:TextBox ID="PenP" runat="server" Height="30px" Width="80px"></asp:TextBox>

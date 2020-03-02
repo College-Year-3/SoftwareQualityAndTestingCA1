@@ -49,22 +49,22 @@ namespace WebApplication2 {
         protected global::System.Web.UI.WebControls.TextBox Comp3rd;
         
         /// <summary>
-        /// DOBLab control.
+        /// AgeLab control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label DOBLab;
+        protected global::System.Web.UI.WebControls.Label AgeLab;
         
         /// <summary>
-        /// DOB control.
+        /// Age control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox DOB;
+        protected global::System.Web.UI.WebControls.TextBox Age;
         
         /// <summary>
         /// PenPLab control.

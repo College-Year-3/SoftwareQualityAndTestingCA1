@@ -14,13 +14,13 @@ namespace InsuranceTest
         public static InsuranceService SUT;
         public static int  vehicleValue;
         public static string comp3rd;
-        public static DateTime dob;
+        public static int age;
         public static int penPoin;
 
         public float premium()
         {
             SUT = new InsuranceService();
-            return SUT.CalculateQuote(vehicleValue, comp3rd, dob, penPoin);
+            return SUT.CalculateQuote(vehicleValue, comp3rd, age, penPoin);
         }
 
     }

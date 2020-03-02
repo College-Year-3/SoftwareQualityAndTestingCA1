@@ -21,10 +21,10 @@ namespace WebApplication2
         {
             int vehicleValue = int.Parse(VehichleVal.Text);
             string comp3rd = Comp3rd.Text;
-            DateTime dob = DateTime.Parse(DOB.Text);
+            int age = int.Parse(Age.Text);
             int penPoin = int.Parse(PenP.Text);
 
-            float premium = Service.CalculateQuote(vehicleValue, comp3rd, dob, penPoin);
+            float premium = Service.CalculateQuote(vehicleValue, comp3rd, age, penPoin);
 
             ResultLab.Text = premium.ToString();
         }
@@ -32,7 +32,7 @@ namespace WebApplication2
         public class InsuranceService
         {
 
-            public float CalculateQuote(int age, string comp3rd, DateTime dob, int penPoin)
+            public float CalculateQuote(int vehicleValue, string comp3rd, int age, int penPoin)
             {
                 float premium = 0;
 
